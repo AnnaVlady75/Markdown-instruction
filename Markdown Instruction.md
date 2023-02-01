@@ -40,6 +40,20 @@
 
 <7753277av@gmail.com>
 ## Работа с таблицами
+В чистом Маркдауне нет синтаксиса для таблиц, а в GFM есть.
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
+Можно управлять выравниванием столбцов при помощи двоеточия.
+
+| Left-Aligned| Center Aligned| Right Aligne|
+|:----------- |:-------------:| -----------:|
+| col 3 is    |some wordy text|   **$1600** |
+| col 2 is    | centered      |       $12   |
+|zebra stripes| are neat      | ~~$1~~      |
 
 ## Цитаты
 
@@ -50,4 +64,5 @@
 >> Это цтата воторого уровня
 
 ## Заключение
-
+___
+***
